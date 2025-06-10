@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+main {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+/* social media box */
+.social_media {
+    background-color: var(--purple-500);
+    color: var(--white);
+    text-align: center;
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.social_media img {
+    width: 10rem;
+}
+
+.social_media h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.social_media span {
+    color: var(--yellow-500);
+}
+
+/* multiple accounts box */
+.accounts {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: .5rem;
+    padding: .8rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accounts h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: .5rem;
+}
+
+.accounts img {
+    width: 100%;
+}
+
+/* posting schedule box */
+.post_schedule {
+    background-color: var(--yellow-500);
+    color: var(--black);
+    border-radius: .5rem;
+    padding: .8rem .8rem 0 .8rem;
+    height: 196px;
+    overflow: hidden;
+}
+
+.post_schedule h2 {
+    font-weight: 500;
+    font-size: 20px;
+    width: 15rem;
+    margin-bottom: .6rem;
+}
+
+.post_schedule img {
+    width: 11.5rem;
+}
+
+/* schedule box */
+.schedule {
+    background-color: var(--purple-100);
+    color: var(--black);
+    border-radius: .5rem;
+    padding: .8rem;
+    text-align: center;
+}
+
+.schedule h2 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: .3rem 0 1rem 0;
+}
+
+.schedule img {
+    width: 100%;
+}
+
+.schedule p {
+    font-size: 15px;
+    width: 230px;
+    margin: .8rem auto;
+}
+
+/* followers box */
+.followers {
+    background-color: var(--purple-500);
+    color: var(--white);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.followers h2 {
+    font-weight: 500;
+    font-size: 26px;
+    margin: 2rem auto 0 auto;
+    width: 220px;
+    line-height: 1.5rem;
+}
+
+.followers img {
+    width: 15rem;
+}
+
+/* growth box */
+.growth {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.growth h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.growth p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+/* content box */
+.content {
+    background-color: var(--yellow-100);
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.content h2 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.8rem;
+}
+
+.content i {
+    color: var(--purple-500);
+}
+
+.content img {
+    
+    margin: 1rem 0;
+}
+
+/* AI content */
+.ai_content {
+    background-color: var(--yellow-500);
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 1.5rem;
+}
+
+.ai_content h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.8rem;
+}
+
+img {
+    width: 10rem;
+}
