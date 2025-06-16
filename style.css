@@ -205,6 +205,7 @@ main {
 @media (min-width: 640px) {
     main {
         grid-template-columns: 1fr 1fr;
+        gap: .5rem;
     }
 
     .content {
@@ -219,15 +220,24 @@ main {
         grid-area: 2 / 2 / 4 / 3;
     }
 
+    .growth {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
     .ai_content {
         grid-area: 4 / 1 / 5 / 2;
-        
     }
 
     .followers {
-        grid-area: 5 / 1 / 6 / 3;
+        grid-area: 4 / 2 / 5 / 3;
     }
-} 
+}
+
+@media (min-width: 768px) {
+    main {
+        gap: .8rem;
+    }
+}
 
 
 @media (min-width: 1024px) {
@@ -321,9 +331,10 @@ main {
     .ai_content {
         width: 200px;
         padding: 1rem;
-        height: fit-content;
+        height: 335px;
         grid-area: 3 / 1 / 4 / 2;
-        top: 48%;
+        position: absolute;
+        top: 48.5%;
     }
     .ai_content h2 {
         font-size: 28px;
@@ -356,8 +367,8 @@ main {
         width: 416px;
         height: fit-content;
         padding: 1rem;
-        grid-area: 3 / 3 / 4 / 5;
         flex-direction: row;
+        grid-area: 3 / 3 / 4 / 5;
     }
     .followers p {
         font-size: 25px;
@@ -369,4 +380,3 @@ main {
     }
 }
 
-/* almost done with the design */
