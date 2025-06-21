@@ -244,6 +244,7 @@ main {
     main {
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
+        padding: 0;
     }
 
 /* content box */
@@ -274,15 +275,17 @@ main {
 /* schedule box */
     .schedule {
         width: 200px;
-        height: fit-content;
+        height: 100%;
         grid-area: 1 / 4 / 3 / 5;
         padding-left: 1.5rem;
         overflow: hidden;
     }
     .schedule h1 {
         text-align: left;
-        font-size: 20px;
+        font-size: 25px;
         line-height: 1.2rem;
+        width: 150px;
+        margin: .9rem 0 0 0;
     }
     .schedule p {
         width: 100%;
@@ -302,11 +305,11 @@ main {
     }
     .accounts img {
         width: 15rem;
-        margin-left: .7rem;
+        margin-left: .6rem;
     }
     .accounts h1 {
-        font-size: 20px;
-        width: 150px;
+        font-size: 25px;
+        width: 120px;
         margin-top: .6rem;
         line-height: 1.3rem;
     }
@@ -314,27 +317,30 @@ main {
 /* post_schedule box */
     .post_schedule {
         width: 200px;
-        height: 190px;
+        height: 205px;
         grid-area: 2 / 3 / 3 / 4;
+        padding: 1.2rem 1.2rem 0 1.2rem;
+        overflow: hidden;
     }
     .post_schedule h1 {
-        font-size: 20px;
-        width: 150px;
+        font-size: 25px;
+        width: 120px;
         line-height: 1.3rem;
     }
     .post_schedule img {
         width: 100%;
-        margin-top: .95rem;
+        display: flex;
+        margin: 2rem auto;
     }
 
 /* ai_content box */
     .ai_content {
         width: 200px;
         padding: 1rem;
-        height: 335px;
+        height: 347px;
         grid-area: 3 / 1 / 4 / 2;
         position: absolute;
-        top: 48.5%;
+        top: 46.2%;
     }
     .ai_content h2 {
         font-size: 28px;
@@ -350,11 +356,11 @@ main {
 /* growth box */
     .growth {
         width: 200px;
-        height: fit-content;
+        height: auto;
         grid-area: 3 / 2 / 4 / 3;
     }
     .growth p {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: 500;
     }
     .growth img {
@@ -368,12 +374,16 @@ main {
         height: fit-content;
         padding: 1rem;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
         grid-area: 3 / 3 / 4 / 5;
     }
     .followers p {
-        font-size: 25px;
-        line-height: 1.3rem;
+        font-size: 30px;
+        line-height: 1.6rem;
         text-align: left;
+        margin: 0;
     }
     .followers img {
         width: 11rem;
