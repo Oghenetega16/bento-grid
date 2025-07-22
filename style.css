@@ -337,10 +337,10 @@ main {
     .ai_content {
         width: 200px;
         padding: 1rem;
-        height: 347px;
+        height: 349px;
         grid-area: 3 / 1 / 4 / 2;
         position: absolute;
-        top: 46.2%;
+        top: 47%;
     }
     .ai_content h2 {
         font-size: 28px;
